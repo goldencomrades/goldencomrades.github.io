@@ -8,7 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <p>
-           <b> grassetto </b>
+           <b> questo è grassetto </b>
           </p>
           <p>
             <table>
