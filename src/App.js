@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './image.png';
 import './App.css';
 
 class App extends Component {
@@ -7,10 +7,19 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+           <b> grassetto </b>
           </p>
+          <p>
+            <table>
+              <tr><td>Colonna 1</td><td>Colonna 2</td></tr>
+              <tr><td>Dato 1,1</td><td>Dato 1,2</td></tr>
+              <tr><td>Dato 2,1</td><td>Dato 2,2</td></tr>
+              <tr><td>Dato 3,1</td><td>Dato 3,2</td></tr> <br/>
+            </table>
+            <img src={logo} alt="logo" />
+          </p>
+
           <a
             className="App-link"
             href="https://reactjs.org"
